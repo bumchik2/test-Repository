@@ -24,4 +24,6 @@ jobs:
       run: |
         echo "hello"
         ls
+        pip install pygame
+        pip install numpy
         python main.py
